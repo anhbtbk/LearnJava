@@ -1,0 +1,2 @@
+- IntelliJ IDEA:	https://www.jetbrains.com/idea/download/#section=windows
+- JDK:			https://www.oracle.com/java/technologies/javase-downloads.html
