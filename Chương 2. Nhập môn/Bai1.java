@@ -7,7 +7,7 @@ public class Bai1 {
     public static void main(String[] args) {
         //gõ tắt: psvm hoặc main
         //phương thức main là phương thức static, kiểu void
-        //phương thức m chứa các phương thức khác, là nơi chương trình bắt đầu thực hiện
+        //phương thức main chứa các phương thức khác, là nơi chương trình bắt đầu thực hiện
         //static: không cần có đối tượng vẫn có thể chạy được
         //phương thức: thể hiện hành động của đối tượng
 

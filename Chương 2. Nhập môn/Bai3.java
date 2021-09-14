@@ -17,7 +17,7 @@ public class Bai3 {
         Scanner input = new Scanner(System.in); //hàm nhập từ bàn phím
         System.out.println("Nhap tuoi cua ban: ");
         age = input.nextInt();
-        input.nextLine();   //đọc bỏ dòng thừa
+        input.nextLine();   //đọc bỏ dòng thừa sau khi nhập 1 số nguyên
 
         System.out.println("Nhap ten cua ban: ");
         fullName = input.nextLine();
