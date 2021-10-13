@@ -26,14 +26,14 @@ public class Bai9ThucHanh {
 //            System.out.println(num1 + " < " + num2);
 //        }
 
-//        //Bai 3 -----
+//        //Bai 3
 //        System.out.println("Nhap ho va ten: ");
 //        var fullName = input.nextLine();
 //
-//        if (fullName.charAt(^[a-zA-Z\\s]+$)  ) {
-//            System.out.println("Khong hop le");
-//        } else {
+//        if (fullName.matches("^[a-zA-Z\\s]+$")) {
 //            System.out.println("Hop le");
+//        } else {
+//            System.out.println("Khong hop le");
 //        }
 
 //        //Bai 4
@@ -45,7 +45,7 @@ public class Bai9ThucHanh {
 //            System.out.println(str1 + " tuong duong " + str2);
 //        } else if (str1.compareTo(str2) > 0) {
 //            System.out.println(str1 + " dung sau chuoi " + str2);
-//        } else{
+//        } else {
 //            System.out.println(str1 + " dung truoc chuoi " + str2);
 //
 //        }
@@ -63,19 +63,51 @@ public class Bai9ThucHanh {
 //            System.out.println("Khong la 3 canh cua 1 tam giac");
 //        }
 
-//        //Bai 6 ------
+//        //Bai 6
 //        System.out.println("Nhap vao mot chuoi ki tu bat ki:");
 //        String str = input.nextLine();
-//        if (str.charAt(0) ==  ) {
+//        if (str.matches("^\\s+.*")) {                         //str.startsWith(" ") : khong bat duoc Tab
 //            System.out.println("YES");
 //        } else {
 //            System.out.println("NO");
 //        }
-        //Bai 7 -------
 
-        //Bai 8
+//        //Bai 7
+//        System.out.println("Nhap ho ten day du: ");
+//        var fullName = input.nextLine().trim(); //.trim() neu muon loai bo dau cach thua o truoc va sau
+//        var lastSpaceIndex = fullName.lastIndexOf(" ");
+//        var firstName = fullName.substring(lastSpaceIndex + 1);
+//        if (firstName.matches("^[A-Z].*")) {
+//            System.out.println("YES");
+//        } else {
+//            System.out.println("NO");
+//        }
 
 
+//        //Bai 8
+//        System.out.println("Nhap vao chuoi can check: ");
+//        var str = input.nextLine();
+//        var lengthStr = str.length();
+//        var firstCharacter = str.charAt(0);
+//        var lastCharacter = str.charAt(lengthStr - 1);
+//        if (firstCharacter == lastCharacter) {
+//            System.out.println("YES");
+//        } else {
+//            System.out.println("NO");
+//        }
+
+//        //Bai 9
+//        System.out.println("Nhap vao day lon, day nho, chieu cao hinh thang: ");
+//        var a = input.nextFloat();
+//        var b = input.nextFloat();
+//        var h = input.nextFloat();
+//        Float S;
+//        if ((a > 0) && (b > 0) && (h > 0)) {
+//            S = (a + b) * h / 2;
+//            System.out.println("Dien tich hinh thang S = " + S);
+//        } else {
+//            System.out.println("INVALID INPUT");
+//        }
 
     }
 }
