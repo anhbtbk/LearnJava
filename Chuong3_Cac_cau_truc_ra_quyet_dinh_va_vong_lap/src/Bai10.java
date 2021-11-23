@@ -1,3 +1,5 @@
+//Bài 10. Cấu trúc ra quyết định switch
+
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
